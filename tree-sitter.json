@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "chaiscript",
+      "camelcase": "ChaiScript",
+      "scope": "source.chaiscript",
+      "path": ".",
+      "file-types": [
+        ".chai"
+      ],
+      "injection-regex": "^chaiscript$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A parser for the ChaiScript scripting language",
+    "authors": [
+      {
+        "name": "Simon König",
+        "email": "31983081+SerenGTI@users.noreply.github.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/SerenGTI/tree-sitter-chaiscript"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}

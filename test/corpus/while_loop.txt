@@ -1,0 +1,16 @@
+==================
+While loop
+==================
+
+while (i < 100) {
+
+}
+
+---
+
+(source_file
+    (while_statement
+        (binary_expression
+            (identifier)
+            (number))
+        (block)))

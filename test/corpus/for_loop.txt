@@ -1,0 +1,28 @@
+==================
+For loop
+==================
+
+for (var i = 0; i < 100; ++i) {
+
+}
+
+for (i : a) {
+
+}
+---
+
+(source_file
+    (for_statement
+        (variable_declaration
+            (identifier)
+            (number))
+        (binary_expression
+            (identifier)
+            (number))
+        (unary_expression
+            (identifier))
+        (block))
+    (for_statement
+        (identifier)
+        (identifier)
+        (block)))

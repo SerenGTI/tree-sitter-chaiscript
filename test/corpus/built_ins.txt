@@ -1,0 +1,29 @@
+==================
+Built-ins
+==================
+
+var e = [];
+var v = [1,"16",a,1.2];
+var m = ["a":1, "b":a];
+
+---
+
+(source_file
+    (variable_declaration
+        (identifier)
+        (vector))
+    (variable_declaration
+        (identifier)
+        (vector
+            (number)
+            (string)
+            (identifier)
+            (number)))
+    (variable_declaration
+        (identifier)
+        (map
+            (string)
+            (number)
+            (string)
+            (identifier))))
+

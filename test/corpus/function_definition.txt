@@ -1,0 +1,44 @@
+============
+Function definition
+============
+
+def myfunc() {
+}
+def myfunc(x, int y) : guard {
+}
+
+var l = fun(x) {};
+var m = fun[a](x) {};
+
+---
+
+(source_file
+    (function_definition
+        (function_identifier
+            (identifier))
+        (block))
+    (function_definition
+        (function_identifier
+            (identifier))
+        (parameter_list
+            (identifier)
+            (identifier)
+            (identifier))
+        (guard
+            (identifier))
+        (block))
+    (variable_declaration
+        (identifier)
+        (lambda
+            (parameter_list
+                (identifier))
+            (block)))
+    (variable_declaration
+        (identifier)
+        (lambda
+            (capture_list
+                (identifier))
+            (parameter_list
+                (identifier))
+            (block))))
+

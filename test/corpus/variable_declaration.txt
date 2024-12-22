@@ -1,0 +1,46 @@
+==================
+Variable declarations
+==================
+
+var a;
+auto a;
+
+var b = 5;
+auto b = 6;
+
+var c := c;
+var &c = c;
+
+global g;
+GLOBAL g;
+global g = 5;
+
+---
+
+(source_file
+    (variable_declaration
+        (identifier))
+    (variable_declaration
+        (identifier))
+
+    (variable_declaration
+        (identifier)
+        (number))
+    (variable_declaration
+        (identifier)
+        (number))
+
+    (variable_declaration
+        (identifier)
+        (identifier))
+    (variable_declaration
+        (identifier)
+        (identifier))
+
+    (variable_declaration
+        (identifier))
+    (variable_declaration
+        (identifier))
+    (variable_declaration
+        (identifier)
+        (number)))

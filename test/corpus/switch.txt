@@ -1,0 +1,27 @@
+==================
+Switch
+==================
+
+switch (a) {
+    case (1) {
+    }
+    case (a) {
+    }
+    default {
+    }
+}
+
+---
+
+(source_file
+    (switch_statement
+        (identifier)
+        (block
+            (case_statement
+                (number)
+                (block))
+            (case_statement
+                (identifier)
+                (block))
+            (case_statement
+                (block)))))

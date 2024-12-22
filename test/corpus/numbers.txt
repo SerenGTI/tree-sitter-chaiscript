@@ -1,0 +1,20 @@
+==================
+Numbers
+==================
+
+var l = [1.0,1.0d,1.0f,1.0l,1,1u,1ul,1ull];
+
+---
+
+(source_file
+    (variable_declaration
+        (identifier)
+        (vector
+            (number)
+            (number)
+            (number)
+            (number)
+            (number)
+            (number)
+            (number)
+            (number))))
